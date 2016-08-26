@@ -55,14 +55,14 @@ Data set # 2 (average of all features)
 
 data_mean_std is a 10299x81 data frame.
 
-The first column contains subject IDs.(integers between 1 and 30)
-The second column contains activity names.
-The last 79 columns are measurements.
+- The first column contains subject IDs.(integers between 1 and 30)
+- The second column contains activity names.
+- The last 79 columns are measurements.
 
 ###new_data
 
 new_data is a 180x81 data frame.
 
-The first column contains subject IDs.
-The second column contains activity names.
-The last 79 columns are the averages for each of the variables.
+- The first column contains subject IDs.
+- The second column contains activity names.
+- The last 79 columns are the averages for each of the variables.
