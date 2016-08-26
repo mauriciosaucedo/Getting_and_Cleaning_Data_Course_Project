@@ -14,7 +14,21 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The script run_analysis.R performs the following process to fet the data and clean up to create a tidy data set:
 
-Merge the
+Data set # 1 (subset of mean and standard deviation)
+
+- Prerequisites: Load data.table library and set working directory
+- Read the data from all data sources
+- Convert the features second column from factor to character
+- Consolidate 3 data frames (subject, label and set) into 1. This for train and test data.
+- Consolidate the resulted 2 dataframes into a single one using rbind.
+- Get the columns that contain mean or std
+- Subset the full data set to include only those columns
+- Get the activity names from activity catalog and substitute its values in the data subset.
+- Format the variable labels names to be more reading friendly.
+
+Data set # 2 (average of all features)
+
+- Use aggregate function by activity and subject to calculate the mean to the data subset creating another subset.
 
 ##Variables
 
