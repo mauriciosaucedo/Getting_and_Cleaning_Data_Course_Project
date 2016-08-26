@@ -66,3 +66,4 @@ names(data_mean_std) <- updated_names
 #  data set with the average of each variable for each activity and each subject.
 
 new_data <- aggregate(data_mean_std[,3:81], by = list(activity = data_mean_std$activity, subject = data_mean_std$subject),FUN = mean)
+write.table(new_data, row.names = FALSE, file = './new_data.txt')
