@@ -34,4 +34,4 @@ Good luck!
 
 ####Data set # 2 (step 5)
 - Use aggregate function by activity and subject to calculate the mean to the data subset creating another subset.
-- 
+
